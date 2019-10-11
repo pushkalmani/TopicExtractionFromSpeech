@@ -29,23 +29,23 @@ first converting audio file of wav format  to text using pyaudio and Google Spee
 Tokenize words and cleanup text 
 1. Tokenize each sentence into a list of words, removing punctuations and unnecessary characters altogether.
 2. Creating BIgrams and trigrams model :- Bigrams are two words frequently occurring together in the document. Trigrams are 3 words frequently occurring.
-3. Remove stopwords , make bigrams and lemmatize .
+3. Remove stopwords, make bigrams and lemmatize.
 
-4. Create the Dictionary and Corpus needed for Topic Modeling
+4. Create the Dictionary and Corpus needed for Topic Modeling.
 
-+ Building Topic Model :- We have everything required to train the LDA model. In addition to the corpus and dictionary, you need to provide the number of topics as well .
++ Building Topic Model :- We have everything required to train the LDA model. In addition to the corpus and dictionary, you need to provide the number of topics as well.
 
 
-+ Compute Model perplexity and Coherence Scores
-+ To analyse what is the optimal number of topics in the text document we have to check for maximum value of coherence score and minimum value for perplexity , if the graph is non decreasing we will look for the value from where the slope become constant .
-The value we got from graph will be our number of topics and then we will generate keywords and topic would be inferred from it .
++ Compute Model perplexity and Coherence Scores.
++ To analyse what is the optimal number of topics in the text document we have to check for maximum value of coherence score and minimum value for perplexity, if the graph is non decreasing we will look for the value from where the slope become constant.
+The value we got from graph will be our number of topics and then we will generate keywords and topic would be inferred from it.
 
 
 
  
 
 ## Installation
----
+--------------------------------------------------------------------------------------------------------------------------------
 [(Back to top)](#list-of-contents)
 
 Following Python Libraries need to be installed for the successful completion of project.
