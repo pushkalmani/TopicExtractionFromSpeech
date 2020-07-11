@@ -13,7 +13,7 @@
 ---
 [(Back to top)](#list-of-contents)
 
-Topic Modelling is different from rule-based text mining approaches that use regular expressions or dictionary based keyword searching techniques. It is an unsupervised approach used for finding and observing the bunch of words (called “topics”) in large clusters of texts.
+Topic Modelling is different from rule-based text mining approaches that use regular expressions or dictionary based keyword searching techniques. It is an unsupervised approach used for finding and observing the bunch of words (called “topics”) in large clusters of texts.A python program which extracts topics from speech from the speaker or from audio wav file. Speaker can take a pause for 180 seconds. Audio is converted into text and then the LDA model is used to extract topics , number of topics required can be changed by user. 
 
 ## Working
 ---
